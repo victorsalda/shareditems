@@ -35,6 +35,7 @@ VIII. Surveying
 ⦁	Signal processing
 ⦁	Time-series analysis and forecasting
 ⦁	Other specialized geospatial domains
+
 ⚠️ As this library is an ongoing work, please note you may encounter:
 ⦁	Documentation inconsistencies
 ⦁	Duplicate or overlapping models
@@ -70,6 +71,7 @@ CNN - Rotated R-CNN (2021) - Specialized for oriented object detection; essentia
 
 
 Recurrent Neural Networks (RNNs).
+
 RNN - Basic RNN (1980s, foundational) - Simple recurrent connections; limited modern EO/RS use due to vanishing gradient problems in long sequences
 RNN - LSTM (1997, Long Short-Term Memory) - Gating mechanisms enable long-term memory; essential for multi-temporal EO/RS analysis and crop monitoring
 RNN - GRU (2014, Gated Recurrent Unit) - Simplified LSTM with fewer parameters; efficient for satellite time series classification and phenology tracking
@@ -82,7 +84,9 @@ RNN - PredRNN (2017) - Advanced spatio-temporal forecasting; excellent for weath
 RNN - Eidetic 3D LSTM (2018) - Specialized for video and image sequences; effective for high-frequency satellite video analysis
 RNN - Phased LSTM (2016) - Time-aware gating mechanism; perfect for irregularly sampled satellite data and multi-sensor fusion
 
+
 Transformers (aka Attention-Based Models).
+
 TF - Original (2017) - Foundational encoder-decoder architecture; basis for modern attention models but rarely used directly in EO/RS due to computational complexity
 TF - Derivatives - GPT (Generative Pre-trained Transformer) - GPT-2, GPT-3, GPT-4 - Large-scale generative model; potential for EO/RS report generation and data interpretation
 TF - Derivatives - GPT (Generative Pre-trained Transformer) - LLaMA - Efficient large language model; adaptable for EO/RS metadata processing
@@ -106,7 +110,9 @@ TF - Twins Transformer - Spatially separable attention; efficient for large-area
 TF - CrossFormer - Multi-scale attention; handles EO/RS objects at different scales
 TF - MobileViT - Lightweight vision TF; suitable for edge deployment in EO/RS
 
+
 State-Space Models (SSMs).
+
 SSM - Structured State Space Sequence Model (S4) - Foundational modern SSM architecture; enables efficient parallel scan for long-sequence satellite time series analysis
 SSM - Mamba (2023) - Leading architecture with data-dependent selection; emerging as Transformer alternative for long EO/RS temporal sequences and efficient high-resolution processing
 SSM - Vision Mamba (2024) - Mamba adapted for visual tasks; promising for large-scale EO/RS image classification and segmentation
@@ -118,7 +124,9 @@ SSM - Hybrid SSM-Transformers - Combines SSM efficiency with Transformer express
 SSM - Liquid S4 - Continuous-time SSM variant; suitable for irregularly sampled satellite data
 SSM - S4D - Diagonal state space model; efficient for seasonal pattern analysis in EO/RS time series
 
+
 Generative Models.
+
 GM - Generative Adversarial Networks (2014, GAN) - Adversarial training framework; widely used for EO/RS data augmentation, super-resolution, and domain adaptation
 GM - Denoising Diffusion Probabilistic Models (2020, DDPM) - Foundational diffusion architecture; basis for modern EO/RS generative applications
 GM - Denoising Diffusion Implicit Models (2020, DDIM) - Accelerated sampling; enables faster inference for EO/RS image generation tasks
@@ -140,7 +148,9 @@ GM - NVAE (2020) - Hierarchical VAE; captures multi-scale EO/RS image structure
 GM - RealNVP (2016) - Invertible transformations; exact density estimation for EO/RS data
 GM - Glow (2018) - Generative flow models; high-quality EO/RS image synthesis with tractable likelihood
 
+
 Graph Neural Networks (GNNs).
+
 GNN - Graph Convolutional Network (GCN) - Spectral graph convolutions; foundational for node classification in EO/RS spatial networks
 GNN - Graph Attention Network (GAT) - Attention-based neighborhood aggregation; dynamic importance weighting for EO/RS spatial relationships
 GNN - Graph Neural Networks (GNNs) - General framework; umbrella term for all graph-based deep learning architectures
@@ -162,7 +172,9 @@ GNN - Message Passing Neural Networks (MPNN) - General framework; flexible for c
 GNN - Graph Isomorphism Networks (GIN) - More expressive than GCN; better for complex EO/RS graph topology
 GNN - Diffusion-Convolutional Neural Networks (DCNN) - Diffusion-based propagation; captures multi-hop EO/RS dependencies
 
-Hybrid Architectures.
+
+Hybrid.
+
 Hybrid - Jamba (Transformer-SSM Hybrid) - Combines Transformer blocks with Mamba (SSM) blocks; emerging for efficient long-sequence EO/RS time series with global attention capabilities
 Hybrid - Swin U-Net - Combines Swin Transformer with U-Net structure; dominant for high-resolution EO/RS segmentation with global context
 Hybrid - ConvLSTM/ConvGRU - Combines CNN spatial feature extraction with RNN temporal modeling; foundational for EO/RS spatio-temporal forecasting
@@ -188,7 +200,9 @@ Hybrid - EdgeNeXt - CNN-Transformer hybrid for edge computing; suitable for onbo
 Hybrid - Diffusion-Transformer Hybrids - Combines diffusion probabilistic models with transformer conditioning; high-quality EO/RS image generation
 Hybrid - GAN-Transformer Networks - Transformer-based discriminators with CNN generators; improved EO/RS synthetic data quality
 
-Emerging Architectures.
+
+Emerging.
+
 Emerging - Retentive Networks as SSM alternatives
 Emerging - Neural Radiance Fields (NeRF) for 3D reconstruction
 Emerging - Foundation Models for EO/RS - Future paradigm shift
