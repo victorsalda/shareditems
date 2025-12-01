@@ -6,14 +6,14 @@ This document tracks the active development of my Machine Learning (ML) and Deep
 
 # Earth Observation (EO)
 
-    ✅ Classification (land cover, land use, etc.)
-    ✅ Segmentation (building footprints, water bodies, etc.)
-    ✅ Object Detection (cars, ships, trees, roofs, etc.)
     ✅ Change Detection (urban growth, deforestation, etc.)
+    ✅ Classification (land cover, land use, etc.)
     ✅ Data (super-resolution, augmentation, etc.)
-    ✅ Multi-scale Analysis (from trees to landscapes)
     ✅ Hyperspectral Analysis (crop health, mineralogy, etc.)
+    ✅ Multi-scale Analysis (from trees to landscapes)
+    ✅ Object Detection (cars, ships, trees, roofs, etc.)
     ✅ Radar Applications (deformation, subsidence, etc.)
+    ✅ Segmentation (building footprints, water bodies, etc.)
     ✅ 3D Modeling (digital twins, DEMs, etc.)
 
 # Geographic Information Systems (GIS)
