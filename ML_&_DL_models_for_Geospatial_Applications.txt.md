@@ -2,38 +2,31 @@
 
 This document tracks the active development of my Machine Learning (ML) and Deep Learning (DL) library for geospatial applications spanning:
 
-### I. Cadastre
+I. Cadastre
 
+II. Earth Observation (EO)
 
-### II. Earth Observation (EO)
+✅ Change Detection (urban growth, deforestation, etc.)
+✅ Classification (land cover, land use, etc.)
+✅ Data (super-resolution, augmentation, etc.)
+✅ Hyperspectral Analysis (crop health, mineralogy, etc.)
+✅ Multi-scale Analysis (from trees to landscapes)
+✅ Object Detection (cars, ships, trees, roofs, etc.)
+✅ Radar Applications (deformation, subsidence, etc.)
+✅ Segmentation (building footprints, water bodies, etc.)
+✅ 3D Modeling (digital twins, DEMs, etc.)
 
-    ✅ Change Detection (urban growth, deforestation, etc.)
-    ✅ Classification (land cover, land use, etc.)
-    ✅ Data (super-resolution, augmentation, etc.)
-    ✅ Hyperspectral Analysis (crop health, mineralogy, etc.)
-    ✅ Multi-scale Analysis (from trees to landscapes)
-    ✅ Object Detection (cars, ships, trees, roofs, etc.)
-    ✅ Radar Applications (deformation, subsidence, etc.)
-    ✅ Segmentation (building footprints, water bodies, etc.)
-    ✅ 3D Modeling (digital twins, DEMs, etc.)
+III. Geographic Information Systems (GIS)
 
+IV. Global Navigation Satellite Systems (GNSS)
 
-### III. Geographic Information Systems (GIS)
+V. Geosciences
 
+VI. Land Management
 
-### IV. Global Navigation Satellite Systems (GNSS)
+VII. Real Estate Valuation
 
-
-### V. Geosciences
-
-
-### VI. Land Management
-
-
-### VII. Real Estate Valuation
-
-
-### VIII. Surveying
+VIII. Surveying
 
 
 🌍 The scope extends beyond classical Computer Vision (CV) tasks to include:
@@ -95,6 +88,7 @@ This document tracks the active development of my Machine Learning (ML) and Deep
 
 
 3. Transformers (aka Attention-Based Models).
+
 026. TF - Original (2017) - Foundational encoder-decoder architecture; basis for modern attention models but rarely used directly in EO/RS due to computational complexity
 027. TF - Derivatives - GPT (Generative Pre-trained Transformer) - GPT-2, GPT-3, GPT-4 - Large-scale generative model; potential for EO/RS report generation and data interpretation
 028. TF - Derivatives - GPT (Generative Pre-trained Transformer) - LLaMA - Efficient large language model; adaptable for EO/RS metadata processing
@@ -120,6 +114,7 @@ This document tracks the active development of my Machine Learning (ML) and Deep
 
 
 4. State-Space Models (SSMs).
+
 048. SSM - Structured State Space Sequence Model (S4) - Foundational modern SSM architecture; enables efficient parallel scan for long-sequence satellite time series analysis
 049. SSM - Mamba (2023) - Leading architecture with data-dependent selection; emerging as Transformer alternative for long EO/RS temporal sequences and efficient high-resolution processing
 050. SSM - Vision Mamba (2024) - Mamba adapted for visual tasks; promising for large-scale EO/RS image classification and segmentation
@@ -133,6 +128,7 @@ This document tracks the active development of my Machine Learning (ML) and Deep
 
 
 5. Generative Models.
+
 058. GM - Generative Adversarial Networks (2014, GAN) - Adversarial training framework; widely used for EO/RS data augmentation, super-resolution, and domain adaptation
 059. GM - Denoising Diffusion Probabilistic Models (2020, DDPM) - Foundational diffusion architecture; basis for modern EO/RS generative applications
 060. GM - Denoising Diffusion Implicit Models (2020, DDIM) - Accelerated sampling; enables faster inference for EO/RS image generation tasks
@@ -156,6 +152,7 @@ This document tracks the active development of my Machine Learning (ML) and Deep
 
 
 6. Graph Neural Networks (GNNs).
+
 078. GNN - Graph Convolutional Network (GCN) - Spectral graph convolutions; foundational for node classification in EO/RS spatial networks
 079. GNN - Graph Attention Network (GAT) - Attention-based neighborhood aggregation; dynamic importance weighting for EO/RS spatial relationships
 080. GNN - Graph Neural Networks (GNNs) - General framework; umbrella term for all graph-based deep learning architectures
@@ -179,6 +176,7 @@ This document tracks the active development of my Machine Learning (ML) and Deep
 
 
 7. Hybrid Architectures.
+
 098. Hybrid - Jamba (Transformer-SSM Hybrid) - Combines Transformer blocks with Mamba (SSM) blocks; emerging for efficient long-sequence EO/RS time series with global attention capabilities
 099. Hybrid - Swin U-Net - Combines Swin Transformer with U-Net structure; dominant for high-resolution EO/RS segmentation with global context
 100. Hybrid - ConvLSTM/ConvGRU - Combines CNN spatial feature extraction with RNN temporal modeling; foundational for EO/RS spatio-temporal forecasting
@@ -206,6 +204,7 @@ This document tracks the active development of my Machine Learning (ML) and Deep
 
 
 8. Emerging Architectures.
+
 122. Emerging - Retentive Networks as SSM alternatives
 123. Emerging - Neural Radiance Fields (NeRF) for 3D reconstruction
 124. Emerging - Foundation Models for EO/RS - Future paradigm shift
