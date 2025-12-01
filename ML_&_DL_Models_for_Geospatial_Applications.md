@@ -1,8 +1,9 @@
-#################################### MACHINE LEARNING & DEEP LEARNING MODELS FOR GEOSPATIAL APPLICATIONS ####################################
+####### MACHINE LEARNING & DEEP LEARNING MODELS FOR GEOSPATIAL APPLICATIONS #######
 
 This document tracks the active development of my Machine Learning (ML) and Deep Learning (DL) library for geospatial applications spanning:
 
 ### Cadastre
+
 
 ### Earth Observation (EO)
 
@@ -16,15 +17,21 @@ This document tracks the active development of my Machine Learning (ML) and Deep
     ✅ Segmentation (building footprints, water bodies, etc.)
     ✅ 3D Modeling (digital twins, DEMs, etc.)
 
+
 ### Geographic Information Systems (GIS)
+
 
 ### Global Navigation Satellite Systems (GNSS)
 
+
 ### Geosciences
+
 
 ### Land Management
 
+
 ### Real Estate Valuation
+
 
 ### Surveying
 
