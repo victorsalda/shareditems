@@ -37,6 +37,7 @@ This document tracks the active development of my Machine Learning (ML) and Deep
 - Physics-informed models for geospatial constraints
 - Other specialized geospatial ML approaches
 
+
 ⚠️ As this library is an ongoing work, please note you may encounter:
 - Documentation inconsistencies
 - Duplicate or overlapping models
@@ -44,8 +45,6 @@ This document tracks the active development of my Machine Learning (ML) and Deep
 - Missing sections
 - Evolving APIs
 - Transitional states
-
-Contributions and feedback are welcome as the library matures.
 
 
 1. Convolutional Neural Networks (CNNs).
