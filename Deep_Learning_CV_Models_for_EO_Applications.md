@@ -30,21 +30,28 @@ This document tracks the active development of my Machine Learning (ML) and Deep
 
 
 🌍 The scope extends beyond classical Computer Vision (CV) tasks to include:
-- Time-series analysis and forecasting
-- Multi-modal and multi-sensor data fusion
+- Error correction
 - Graph-based learning for spatial networks
-- Error correction and signal processing
+- Multi-modal and multi-sensor data fusion
 - Physics-informed models for geospatial constraints
-- Other specialized geospatial ML approaches
+- Signal processing
+- Time-series analysis and forecasting
+- Other specialized geospatial domains
 
 
 ⚠️ As this library is an ongoing work, please note you may encounter:
 - Documentation inconsistencies
 - Duplicate or overlapping models
-- Incomplete modules
-- Missing sections
 - Evolving APIs
+- Incomplete modules
+- Missing examples and tutorials
+- Missing sections
+- Partial implementations
+- Performance variations between versions
+- Temporary workarounds
+- Testing gaps
 - Transitional states
+- Unstable dependencies
 
 
 1. Convolutional Neural Networks (CNNs).
