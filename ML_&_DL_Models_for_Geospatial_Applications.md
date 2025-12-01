@@ -1,4 +1,4 @@
-#################################### DEEP LEARNING COMPUTER VISION MODELS FOR EARTH OBSERVATION APPLICATIONS ####################################
+#################################### DEEP LEARNING FOR GEOSPATIAL APPLICATIONS ####################################
 
 This document tracks the active development of my Machine Learning (ML) and Deep Learning (DL) library for geospatial applications spanning:
 
