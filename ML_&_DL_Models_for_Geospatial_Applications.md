@@ -2,10 +2,10 @@
 
 This document tracks the active development of my Machine Learning (ML) and Deep Learning (DL) library for geospatial applications spanning:
 
-### Cadastre
+### I. Cadastre
 
 
-### Earth Observation (EO)
+### II. Earth Observation (EO)
 
     ✅ Change Detection (urban growth, deforestation, etc.)
     ✅ Classification (land cover, land use, etc.)
@@ -18,23 +18,22 @@ This document tracks the active development of my Machine Learning (ML) and Deep
     ✅ 3D Modeling (digital twins, DEMs, etc.)
 
 
-### Geographic Information Systems (GIS)
+### III. Geographic Information Systems (GIS)
 
 
-### Global Navigation Satellite Systems (GNSS)
+### IV. Global Navigation Satellite Systems (GNSS)
 
 
-### Geosciences
+### V. Geosciences
 
 
-### Land Management
+### VI. Land Management
 
 
-### Real Estate Valuation
+### VII. Real Estate Valuation
 
 
-### Surveying
-
+### VIII. Surveying
 
 
 🌍 The scope extends beyond classical Computer Vision (CV) tasks to include:
