@@ -114,7 +114,7 @@ TF - MobileViT - Lightweight vision TF; suitable for edge deployment in EO/RS
 State-Space Models (SSMs).
 
 SSM - Structured State Space Sequence Model (S4) - Foundational modern SSM architecture; enables efficient parallel scan for long-sequence satellite time series analysis
-SSM - Mamba (2023) - Leading architecture with data-dependent selection; emerging as Transformers alternative for long EO/RS temporal sequences and efficient high-resolution processing
+SSM - Mamba (2023) - Leading architecture with data-dependent selection; emerging as a Transformer alternative for long EO/RS temporal sequences and efficient high-resolution processing
 SSM - Vision Mamba (2024) - Mamba adapted for visual tasks; promising for large-scale EO/RS image classification and segmentation
 SSM - VMamba - Visual state space model; efficient alternative to Vision Transformers for high-resolution satellite imagery
 SSM - Selective State Spaces (S6) - Mamba's core mechanism; enables content-aware processing of EO/RS temporal patterns
